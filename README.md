@@ -16,7 +16,7 @@ To use the HTTP server in your Go project, you need to import the required packa
 import (
 	"github.com/sdpsagarpawar/router"
 	"github.com/sdpsagarpawar/logger"
-	"github.com/your-username/your-package/myserver"
+	"github.com/sdpsagarpawar/server"
 )
 ```
 
@@ -28,7 +28,7 @@ r := router.NewRouter()
 l := logger.NewLogger()
 
 // Create a new instance of the server
-server := myserver.NewServer(r, l, 10*time.Second)
+server := server.NewServer(r, l, 10*time.Second)
 ```
 
 2. Define your route handlers using the router package:
