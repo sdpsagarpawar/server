@@ -1,4 +1,4 @@
-module server
+module github.com/sdpsagarpawar/server
 
 go 1.18
 
